@@ -16,13 +16,33 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.ctn-1 h1 {
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+.ctn-1 p {
+  animation: fadeIn 5s ease  1s 1 normal;
+  -webkit-animation: fadeIn 5s ease 0s 1 normal;
+}
+.btn-wrapper {
+  animation: fadeIn 6s ease  0s 1 normal;
+  -webkit-animation: fadeIn 7s ease 0s 1 normal;
+}
 .top-wrapper {
   padding: 230px 0 230px 0;
   background-image: url(top.jpg);
   background-size: cover;
   color: white;
   text-align: left;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 .top-wrapper h1 {
