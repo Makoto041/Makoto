@@ -24,7 +24,8 @@ a {
   animation: fadeIn 5s ease  1s 1 normal;
   -webkit-animation: fadeIn 5s ease 0s 1 normal;
 }
-.btn-wrapper {
+.btn-wrapper {            098   `   `
+
   animation: fadeIn 6s ease  0s 1 normal;
   -webkit-animation: fadeIn 7s ease 0s 1 normal;
 }
@@ -36,13 +37,13 @@ a {
   text-align: left;
 }
 @keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 @-webkit-keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 .top-wrapper h1 {
@@ -233,6 +234,7 @@ footer {
     height: 990px;
   }
 
+
   footer {
     text-align: center;
   }
@@ -240,11 +242,15 @@ footer {
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .heading h2 {
     font-size: 20px;
+  }
+
+  .pho-icon {
+
   }
 }
 
@@ -270,7 +276,7 @@ footer {
   }
 
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .top-wrapper p {
