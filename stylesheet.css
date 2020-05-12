@@ -24,14 +24,12 @@ a {
   animation: fadeIn 5s ease  1s 1 normal;
   -webkit-animation: fadeIn 5s ease 0s 1 normal;
 }
-.btn-wrapper {            098   `   `
-
+.btn-wrapper {
   animation: fadeIn 6s ease  0s 1 normal;
   -webkit-animation: fadeIn 7s ease 0s 1 normal;
 }
 .top-wrapper {
-  padding: 230px 0 230px 0;
-  background-image: url(top.jpg);
+  padding: 0 0 230px 0;
   background-size: cover;
   color: white;
   text-align: left;
@@ -97,12 +95,12 @@ a {
 }
 
 header {
-  height: 65px;
+  /* height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.6);
   position :fixed;
   top: 0;
-  z-index: 10;
+  z-index: 10; */
 }
 
 .logo {
@@ -222,6 +220,38 @@ footer {
 
 .clear {
   clear: left;
+}
+
+@media only screen and (min-width: 760px){
+  header {
+      position: relative;
+      max-width: 960px;
+      height: 270px;
+      margin: 0 auto;
+  }
+
+ .top-wrapper img {
+    max-width: 960px;
+    height: auto;
+    position: relative;
+  }
+
+  .ctn-1 {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+  }
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  .top-wrapper {
+    text-align: center;
+  }
+
+  .pct {
+    display: block;
+  }
 }
 
 @media all and (max-width: 1000px) {
